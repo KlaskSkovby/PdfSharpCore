@@ -50,7 +50,7 @@ namespace PdfSharpCore
         /// The PDF producer information string.
         /// TODO: Called Creator in MigraDoc???
         /// </summary>
-        public const string Producer = "";
+        public const string Producer = "KlaskManager - KLAVS@Ramboll.dk";
 
         /// <summary>
         /// The PDF producer information string including VersionPatch.
