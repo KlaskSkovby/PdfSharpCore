@@ -55,7 +55,7 @@ namespace PdfSharpCore
         /// <summary>
         /// The PDF producer information string including VersionPatch.
         /// </summary>
-        public const string Producer2 = "";
+        public const string Producer2 = "KlaskManager - KLAVS@Ramboll.dk";
 
         /// <summary>
         /// The full version number.
