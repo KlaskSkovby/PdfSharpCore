@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PdfSharpCore": {
+      "commandName": "Project",
+      "nativeDebugging": false
+    }
+  }
+}
