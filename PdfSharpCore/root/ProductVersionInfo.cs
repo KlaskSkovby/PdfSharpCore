@@ -59,7 +59,7 @@ namespace PdfSharpCore
 
         /// <summary>
         /// The full version number.
-        /// </summary>
+        /// </summary>s
         public const string Version = "";
 
         /// <summary>

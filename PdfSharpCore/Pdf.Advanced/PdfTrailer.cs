@@ -193,8 +193,9 @@ namespace PdfSharpCore.Pdf.Advanced
             if (iref != null && iref.Value == null)
             {
                 iref = _document._irefTable[iref.ObjectID];
-                Debug.Assert(iref.Value != null);
-                _document._trailer.Elements[Keys.Info] = iref;
+
+                    Debug.Assert(iref.Value != null);
+                    _document._trailer.Elements[Keys.Info] = iref;
             }
 
             // /Encrypt
