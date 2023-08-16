@@ -44,18 +44,18 @@ namespace PdfSharpCore
         /// <summary>
         /// A characteristic description of the product.
         /// </summary>
-        public const string Description = "KLAVS@Ramboll.dk";
+        public const string Description = "KlaskManager - Klavs Skovby ©";
 
         /// <summary>
         /// The PDF producer information string.
         /// TODO: Called Creator in MigraDoc???
         /// </summary>
-        public const string Producer = "KlaskManager - KLAVS@Ramboll.dk";
+        public const string Producer = "KlaskManager - Klavs Skovby ©";
 
         /// <summary>
         /// The PDF producer information string including VersionPatch.
         /// </summary>
-        public const string Producer2 = "KlaskManager - KLAVS@Ramboll.dk";
+        public const string Producer2 = "KlaskManager - Klavs Skovby ©";
 
         /// <summary>
         /// The full version number.
