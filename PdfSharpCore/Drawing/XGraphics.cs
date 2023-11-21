@@ -354,6 +354,16 @@ namespace PdfSharpCore.Drawing  // #??? aufräumen
             _transform = new XMatrix();
         }
 
+
+        public void BeginMarkedContentPropList(string layerName)
+        {
+            (this._renderer as XGraphicsPdfRenderer).BeginMarkedContentPropList(layerName);
+        }
+
+        public void EndMarkedContent()
+        {
+            (this._renderer as XGraphicsPdfRenderer).EndMarkedContent();
+        }
         /// <summary>
         /// Releases all resources used by this object.
         /// </summary>

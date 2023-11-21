@@ -71,6 +71,17 @@ namespace PdfSharpCore.Drawing.Pdf
             _gfxState = new PdfGraphicsState(this);
         }
 
+        public void BeginMarkedContentPropList(string layerName)
+        {
+            this._content.Append(" /OC /" + layerName + " BDC ");
+        }
+
+
+        public void EndMarkedContent()
+        {
+            this._content.Append(" EMC ");
+        }
+
         /// <summary>
         /// Gets the content created by this renderer.
         /// </summary>
