@@ -114,7 +114,7 @@ namespace PdfSharpCore.Pdf.IO
         {
 #if DEBUG_
             Debug.WriteLine("ReadObject: " + objectID);
-            if (objectID.ObjectNumber == 20)
+            if (objectID.ObjectNumber == 4777)
                 GetType();
 #endif
             int objectNumber = objectID.ObjectNumber;

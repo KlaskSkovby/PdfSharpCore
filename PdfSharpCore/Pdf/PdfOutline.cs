@@ -65,7 +65,7 @@ namespace PdfSharpCore.Pdf
             // Create _outlines on demand.
             //_outlines = new PdfOutlineCollection(this);
         }
-
+       
         /// <summary>
         /// Initializes a new instance from an existing dictionary. Used for object type transformation.
         /// </summary>

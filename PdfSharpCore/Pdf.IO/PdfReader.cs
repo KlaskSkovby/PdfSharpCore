@@ -519,7 +519,7 @@ namespace PdfSharpCore.Pdf.IO
                     if (iref.Value == null)
                     {
 #if DEBUG_
-                        if (iref.ObjectNumber == 1074)
+                        if (iref.ObjectNumber == 4777)
                             iref.GetType();
 #endif
                         try

@@ -819,6 +819,7 @@ namespace PdfSharpCore.Pdf
 
         internal PdfTrailer _trailer;
         internal PdfCrossReferenceTable _irefTable;
+
         internal Stream _outStream;
 
         // Imported Document
