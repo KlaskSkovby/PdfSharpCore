@@ -32,6 +32,7 @@ using System.Diagnostics;
 using PdfSharpCore.Pdf.IO;
 using PdfSharpCore.Pdf.Security;
 using PdfSharpCore.Pdf.Internal;
+using SixLabors.ImageSharp.Formats.Gif;
 
 namespace PdfSharpCore.Pdf.Advanced
 {
@@ -192,10 +193,13 @@ namespace PdfSharpCore.Pdf.Advanced
             iref = _document._trailer.Elements[PdfTrailer.Keys.Info] as PdfReference;
             if (iref != null && iref.Value == null)
             {
+              
                 iref = _document._irefTable[iref.ObjectID];
 
-                    Debug.Assert(iref.Value != null);
-                    _document._trailer.Elements[Keys.Info] = iref;
+
+                Debug.Assert(iref.Value != null);
+                _document._trailer.Elements[Keys.Info] = iref;
+                
             }
 
             // /Encrypt

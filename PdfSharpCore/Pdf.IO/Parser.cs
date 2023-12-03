@@ -1362,7 +1362,7 @@ namespace PdfSharpCore.Pdf.IO
 
                             int position = (int)item.Field2;
                                 objectID = ReadObjectNumber(position);
-#if DEBUG
+#if DEBUG_
                             if (objectID.ObjectNumber == 1074)
                                 GetType();
 #endif
